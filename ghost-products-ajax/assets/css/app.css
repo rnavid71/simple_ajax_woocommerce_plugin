@@ -1,0 +1,54 @@
+.ghost-product {
+    max-width: 250px;
+    width: 250px;
+    border-left: 1px solid #dedede;
+    padding: 1em;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.g-info .g-title h3 {
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+.g-info .g-price {
+    text-align: left;
+}
+.g-link {
+    text-align: left;
+    margin-top: 12px;
+}
+
+.g-link a {
+    background: #8f0000;
+    color: #fff;
+    padding: 0.25em 0.5em;
+    border-radius: 4px;
+}
+div#ghost-products-container {
+    background: #fff;
+    box-shadow: -3px 5px 4px #ebebeb;
+    position: absolute;
+    top: 45px;
+    left: 0px;
+    width: 100%;
+    z-index: 9;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+.g-image img {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+input#ghost-search-input {
+    height: 42px;
+    border: 2px solid #dedede;
+}
+@media (max-width: 468px) {
+    .ghost-product {
+        max-width: 100%;
+        width: 100%;
+        border-bottom: 1px solid #dedede;
+        border-left: 0px;
+    }
+}
